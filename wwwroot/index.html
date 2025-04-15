@@ -1,13 +1,107 @@
-<!DOCTYPE html="pt-BR">
-<html> 
-    <head>
-        <meta charset="UTF-8">
-        <title>Titulo</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>Cabeçalho</header>
-        <main>Corpo</main>
-        <footer>Rodapé</footer>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Logan Materiais de Construção</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg bg-orange">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="img/Logotipo de material de construção simples amarelo e preto.png" alt="Logan" height="150">
+            </a>
+            <button class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white fw-bold fs-5" href="historia.html">Nossa História</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white fw-bold fs-5" href="#" role="button" data-bs-toggle="dropdown">
+                            Produtos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="produtos.html#construcao">Para sua construção</a></li>
+                            <li><a class="dropdown-item" href="produtos.html#hidraulicos">Materiais hidráulicos</a></li>
+                            <li><a class="dropdown-item" href="produtos.html#eletricos">Materiais elétricos</a></li>
+                            <li><a class="dropdown-item" href="produtos.html#tintas">Tintas</a></li>
+                            <li><a class="dropdown-item" href="produtos.html#vernizes">Vernizes</a></li>
+                            <li><a class="dropdown-item" href="produtos.html#esmaltes">Esmaltes</a></li>
+                            <li><a class="dropdown-item" href="produtos.html#ferramentas">Ferramentas</a></li>
+                            <li><a class="dropdown-item" href="produtos.html#pisos">Pisos e Revestimentos</a></li>
+                            <li><a class="dropdown-item" href="produtos.html#metais">Metais</a></li>
+                            <li><a class="dropdown-item" href="produtos.html#portas">Portas</a></li>
+                            <li><a class="dropdown-item" href="produtos.html#janelas">Janelas</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item"><a class="nav-link text-white fw-bold fs-5" href="carreiras.html">Carreiras</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-bold fs-5" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/3.png" class="d-block w-100" alt="Banner 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/1.png" class="d-block w-100" alt="Banner 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/2.png" class="d-block w-100" alt="Banner 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <main class="flex-grow-1">
+        <section class="container text-center my-5">
+            <h2 class="text-orange">O que oferecemos</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <i class="bi bi-hammer fs-1 text-orange"></i>
+                    <h4>Produtos Diversificados</h4>
+                    <p>Tudo para sua obra, do básico ao acabamento.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-truck fs-1 text-orange"></i>
+                    <h4>Entrega Rápida</h4>
+                    <p>Levamos até você com agilidade e segurança.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-people fs-1 text-orange"></i>
+                    <h4>Atendimento Especializado</h4>
+                    <p>Equipe pronta para te ajudar com o que precisar.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-orange text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p><strong>Endereço:</strong> Rua Tóquio, 123 - Centro, Ipatinga-MG</p>
+            <p><strong>Telefone:</strong> (31) 1234-5678</p>
+            <div class="d-flex justify-content-center gap-4 mt-3">
+                <a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white fs-4"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
