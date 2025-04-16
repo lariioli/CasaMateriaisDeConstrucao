@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao.csproj": {}
+    "C:\\Users\\Alunos\\OneDrive\\Documentos\\Larissa\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao.csproj": {
+    "C:\\Users\\Alunos\\OneDrive\\Documentos\\Larissa\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao.csproj",
+        "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documentos\\Larissa\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao.csproj",
         "projectName": "CasaMateriaisDeConstrucao",
-        "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao.csproj",
+        "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documentos\\Larissa\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao.csproj",
         "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao\\obj\\",
+        "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documentos\\Larissa\\CasaMateriaisDeConstrucao\\CasaMateriaisDeConstrucao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
